@@ -14,7 +14,7 @@ class Dbhist < Formula
     system "#{lib}/dbhist.sh"
   end
 
-  def caveats; <<-EOF.undent
+  def caveats; <<-EOF
 To use dbhist you need to tell bash to store commands in history with time in
 Unixtime format. After that source the file. E.g:
 
